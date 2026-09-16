@@ -22,7 +22,7 @@ jobs:
       fail-open-reason: ${{ steps.gate.outputs.fail-open-reason }}
     steps:
       - id: gate
-        uses: main-watcher-sandbox/main-watcher/.github/actions/gate@main
+        uses: main-watcher-sandbox/gate/.github/actions/gate@main
 
   # Records that the gate passed without enforcing a lock (ADR-008, ADR-014). Its check run is
   # not required; the watcher's hourly sweep looks for it.

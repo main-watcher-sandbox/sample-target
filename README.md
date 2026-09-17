@@ -75,3 +75,5 @@ from MainWatcher's `templates/`, is: it calls the reusable test workflow publish
 the `main-watcher-ctrf` artifact.
 
 TS-S3 override check (MainWatcher#12).
+
+TS-S11 sweep check (MainWatcher#16).

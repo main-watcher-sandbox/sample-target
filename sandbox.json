@@ -7,7 +7,7 @@
   "hang_test": false,
   "flaky_test": false,
   "fail_restore": false,
-  "fail_upload": false,
+  "fail_upload": true,
   "hang_upload": false,
   "slow_check_minutes": 0
 }

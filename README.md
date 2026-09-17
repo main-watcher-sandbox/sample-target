@@ -77,3 +77,4 @@ the `main-watcher-ctrf` artifact.
 TS-S3 override check (MainWatcher#12).
 
 TS-S11 sweep check (MainWatcher#16).
+The push above was tested by a hand-run sweep; this one waits for the scheduled sweep.

@@ -1,0 +1,1 @@
+TS-S15 (c): merged while the lease was expired.

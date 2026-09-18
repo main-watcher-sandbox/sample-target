@@ -1,5 +1,5 @@
 {
-  "failing_tests": [],
+  "failing_tests": ["Alpha"],
   "timed_tests": false,
   "slow_suite_minutes": 0,
   "hang_test": false,
@@ -7,6 +7,6 @@
   "fail_restore": false,
   "fail_upload": false,
   "hang_upload": false,
-  "hang_upload_forever": false,
+  "hang_upload_forever": true,
   "slow_check_minutes": 0
 }

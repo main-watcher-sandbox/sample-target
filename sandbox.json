@@ -1,7 +1,5 @@
 {
-  "failing_tests": [
-    "Alpha"
-  ],
+  "failing_tests": [],
   "timed_tests": false,
   "slow_suite_minutes": 0,
   "hang_test": false,

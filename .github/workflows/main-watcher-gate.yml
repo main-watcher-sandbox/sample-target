@@ -22,12 +22,7 @@ jobs:
       fail-open-reason: ${{ steps.gate.outputs.fail-open-reason }}
     steps:
       - id: gate
-        uses: main-watcher-sandbox/gate/.github/actions/gate@main
-
-      # TS-S17 only: the gate has decided, and the run goes on. It is what a gate still running
-      # when a lock opens looks like, without racing GitHub's own timings. Remove afterwards.
-      - name: sandbox-linger
-        run: sleep 150
+        uses: Actium-Group-Corporation/MainWatcher/.github/actions/gate@v1
 
   # Records that the gate passed without enforcing a lock (ADR-008, ADR-014). Its check run is
   # not required; the watcher's hourly sweep looks for it.

@@ -74,5 +74,3 @@ It is not the Main Watcher test workflow. `main-watcher-tests.yml`, added by `se
 from MainWatcher's `templates/`, is: it calls the reusable test workflow published to
 `main-watcher-sandbox/gate`, which runs the tests with a deadline and one retry, and uploads
 the `main-watcher-ctrf` artifact.
-
-// TS-S15 (a): an unlabelled PR merged while main is locked.
